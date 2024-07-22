@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    background-color: rgb(248, 233, 233);
+}
+
+@layer utilities {
+    .bg-gradient-custom {
+      background: linear-gradient(
+        82.3deg,
+        rgba(150, 93, 233, 1) 10.8%,
+        rgba(99, 88, 238, 1) 94.3%
+      );
+    }
+  }
+
+@font-face {
+  font-family: 'GilroyBlack';
+  src: url(/fonts/Gilroy-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GilroyBold';
+  src: url(/fonts/Gilroy-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GilroyLight';
+  src: url(/fonts/Gilroy-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GilroyMedium';
+  src: url(/fonts/Gilroy-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GilroyRegular';
+  src: url(/fonts/Gilroy-Regular.ttf) format('truetype');
+}
